@@ -1,6 +1,9 @@
 # Header
 nav:
   # Home: /index
+  home:
+    path: ./index
+    icon: mingcute:home-2-fill
   posts:
     path: ./archives
     icon: mingcute:inbox-fill
@@ -10,10 +13,6 @@ nav:
     icon: mingcute:science-fill
     text: Projects
   # Projects: /projects
-  about:
-    path: ./about
-    icon: mingcute:user-info-fill
-    text: About
   categories:
     path: ./categories
     icon: mingcute:classify-2-fill
@@ -22,9 +21,10 @@ nav:
     path: ./tags
     icon: mingcute:tag-fill
     text: Tags
-  home:
-    path: ./index
-    icon: mingcute:home-2-fill
+  about:
+    path: ./about
+    icon: mingcute:user-info-fill
+    text: About
 
   # To add a new page, use hexo new page, then add another entry below.
   # Each entry MUST have a path. In addition, it will render icon and/or text
